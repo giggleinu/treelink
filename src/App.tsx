@@ -1,3 +1,3 @@
-export const App = () => (
-    <h1>Tree Link</h1>
-)
+import Link from './components/Link/Link';
+
+export const App = () => <Link />;
