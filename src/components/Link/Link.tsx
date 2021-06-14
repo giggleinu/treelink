@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from 'react';
 
+import { LinkType } from '@enums';
 import styles from './Link.styles';
 
 export interface LinkProps {
-	type: string;
+	type: LinkType;
 	color: string;
 }
 

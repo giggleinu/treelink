@@ -1,0 +1,69 @@
+[
+	{
+		"id": "01classic",
+		"title": "My Website",
+		"type": "CLASSIC",
+		"backgroundColor": "rebeccapurple",
+		"color": "white",
+		"url": "www.google.com.au"
+	},
+	{
+		"id": "02classic",
+		"title": "Instagram",
+		"type": "CLASSIC",
+		"backgroundColor": "mediumvioletred",
+		"color": "white",
+		"url": "www.instagram.com.au"
+	},
+	{
+		"id": "03shows",
+		"title": "Upcoming Shows",
+		"type": "CLASSIC",
+		"backgroundColor": "dodgerblue",
+		"color": "white",
+		"shows": [
+			{
+				"date": "Wed Jul 14 2021 13:51:12 GMT+1000 (Australian Eastern Standard Time)",
+				"location": "The Forum, Australia",
+				"isSoldOut": false,
+				"url": "https://www.songkick.com/"
+			},
+			{
+				"date": "Thu Jul 15 2021 13:51:12 GMT+1000 (Australian Eastern Standard Time)",
+				"location": "The Forum, Australia",
+				"isSoldOut": false,
+				"url": "https://www.songkick.com/"
+			},
+			{
+				"date": "Fri Jul 16 2021 13:51:12 GMT+1000 (Australian Eastern Standard Time)",
+				"location": "The Forum, Australia",
+				"isSoldOut": true,
+				"url": "https://www.songkick.com/"
+			}
+		]
+	},
+	{
+		"id": "04music",
+		"title": "Music",
+		"type": "CLASSIC",
+		"backgroundColor": "mediumvioletred",
+		"color": "darkturquoise",
+		"song": [
+			{
+				"platform": "Spotify",
+				"src": "https://open.spotify.com/embed/track/0juMU08O9byWiRBtKM1j5E",
+				"url:": "https://www.spotify.com"
+			},
+			{
+				"platform": "Apple Music",
+				"src": "https://embed.music.apple.com/us/album/circle-of-life/1445732923",
+				"url:": "https://www.music.apple.com"
+			},
+			{
+				"platform": "SoundCloud",
+				"src": "https://embed.music.apple.com/us/album/circle-of-life/1445732923",
+				"url:": "https://www.music.apple.com"
+			}
+		]
+	}
+]
