@@ -1,11 +1,11 @@
-import KarlaMedium from './assets/fonts/Karla-Medium.ttf';
+import Karla from './assets/fonts/Karla-Regular.ttf';
 import { css } from '@emotion/react';
 
 export default css`
 	@font-face {
 		font-family: 'Karla';
-		src: url(${KarlaMedium}) format('truetype');
-		font-weight: 500;
+		src: url(${Karla}) format('truetype');
+		font-weight: 400;
 		font-style: normal;
 	}
 `;

@@ -1,25 +1,21 @@
-import Link, { LinkProps } from './Link';
 import { Meta, Story } from '@storybook/react';
 
+import ClassicLink from './ClassicLink';
 import { LinkType } from '@enums';
 import mockLinks from '../../data/links.json';
 
 export default {
 	title: 'Link',
-	component: Link,
+	component: ClassicLink,
 	argTypes: {
 		color: { control: 'color' },
 	},
 } as Meta;
 
-const Template: Story<LinkProps> = args => <Link {...args} />;
+const Template: Story = args => <ClassicLink {...args} />;
 
 export const Classic = Template.bind({});
 Classic.args = {
-	data: {
-		id: '01classic',
-		title: 'My Website',
-		type: LinkType.CLASSIC,
-		url: 'https://www.google.com.au',
-	},
+	type: LinkType.CLASSIC,
+	color: 'pink',
 };
