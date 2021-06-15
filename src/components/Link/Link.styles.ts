@@ -5,17 +5,21 @@ const styles = (bgColor: string, fgColor: string): SerializedStyles => css`
 		background: ${bgColor};
 		color: ${fgColor};
 		border-radius: 4px;
-		padding: 12px;
-		margin-bottom: 10px;
+		margin-bottom: 16px;
 		text-align: center;
 		width: 100%;
 		cursor: pointer;
 		transition: ease-in-out 0.25s;
 
-		a {
+		a,
+		button {
 			color: ${fgColor};
 			text-decoration: none;
 			font-size: 16px;
+			width: 100%;
+			height: 100%;
+			display: block;
+			padding: 20px;
 		}
 
 		&:hover,

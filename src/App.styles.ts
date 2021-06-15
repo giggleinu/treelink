@@ -23,8 +23,14 @@ export default css`
 	}
 
 	.profile {
-		padding: 12px;
-		max-width: 800px;
+		padding: 16px;
+		max-width: 600px;
 		margin: 0 auto;
+		text-align: center;
+
+		h1 {
+			font-size: 1rem;
+			margin-bottom: 1em;
+		}
 	}
 `;
