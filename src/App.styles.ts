@@ -4,7 +4,10 @@ import { css } from '@emotion/react';
 export default css`
 	${AppFonts};
 
-	#root {
+	#root,
+	html,
+	body,
+	button {
 		font-family: 'Karla';
 	}
 
@@ -14,6 +17,15 @@ export default css`
 		height: 100%;
 		margin: 0;
 		padding: 0;
+	}
+
+	body,
+	a {
+		color: #263238;
+	}
+
+	a {
+		text-decoration: none;
 	}
 
 	*,

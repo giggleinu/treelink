@@ -23,12 +23,8 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.(ico|png|jpg|gif|svg)$/i,
-				loader: 'file-loader',
-				options: {
-					outputPath: 'images',
-					name: '[name].[ext]',
-				},
+				test: /\.svg$/,
+				loader: '@svgr/webpack',
 			},
 			{
 				test: /\.ttf$/i,

@@ -1,5 +1,5 @@
 import { ILink, ProfileTheme } from '@types';
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useState } from 'react';
 
 import ClassicLink from '@/components/Link/ClassicLink';
 import { LinkType } from '@enums';

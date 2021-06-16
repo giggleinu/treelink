@@ -15,5 +15,5 @@ const Template: Story<ClassicLinkProps> = args => <ClassicLink {...args} />;
 export const Default = Template.bind({});
 Default.args = {
 	title: 'My Website',
-	url: 'www.google.com.au',
+	url: 'https://www.google.com.au',
 };
