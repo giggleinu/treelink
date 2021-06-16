@@ -14,7 +14,7 @@
 	{
 		"id": "03shows",
 		"title": "Upcoming Shows",
-		"type": "CLASSIC",
+		"type": "SHOWS",
 		"shows": [
 			{
 				"date": "Wed Jul 14 2021 13:51:12 GMT+1000 (Australian Eastern Standard Time)",
@@ -39,7 +39,7 @@
 	{
 		"id": "04music",
 		"title": "Music",
-		"type": "CLASSIC",
+		"type": "MUSIC",
 		"song": [
 			{
 				"platform": "Spotify",

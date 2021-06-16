@@ -9,6 +9,7 @@ module.exports = {
 	resolve: {
 		// Help babel look for .ts and .tsx files to transpile
 		extensions: ['.ts', '.tsx', '.js', '.json'],
+		plugins: [new TsconfigPathsPlugin()],
 	},
 	module: {
 		rules: [
@@ -44,6 +45,5 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: './src/index.html',
 		}),
-		new TsconfigPathsPlugin(),
 	],
 };

@@ -2,17 +2,15 @@ import { SerializedStyles, css } from '@emotion/react';
 
 const styles = (bgColor: string, fgColor: string): SerializedStyles => css`
 	.link {
-		background: ${bgColor};
 		color: ${fgColor};
-		border-radius: 4px;
 		margin-bottom: 16px;
 		text-align: center;
 		width: 100%;
-		cursor: pointer;
 		transition: ease-in-out 0.25s;
 
 		a,
 		button {
+			background: ${bgColor};
 			color: ${fgColor};
 			text-decoration: none;
 			font-size: 16px;
@@ -20,6 +18,12 @@ const styles = (bgColor: string, fgColor: string): SerializedStyles => css`
 			height: 100%;
 			display: block;
 			padding: 20px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+
+		button {
+			border: none;
 		}
 
 		&:hover,

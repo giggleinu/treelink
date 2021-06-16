@@ -1,8 +1,9 @@
 import { ILink, ProfileTheme } from '@types';
 import React, { FunctionComponent } from 'react';
 
-import ClassicLink from '@components/ClassicLink';
+import ClassicLink from '@/components/Link/ClassicLink';
 import { LinkType } from '@enums';
+import ShowsLink from '@/components/Link/ShowsLink';
 
 export interface LinkProps {
 	/** Link data object */
@@ -18,17 +19,20 @@ export interface LinkProps {
  */
 const Link: FunctionComponent<LinkProps> = ({ data, theme }) => {
 	let link;
-	const linkUrl = data && 'url' in data ? data.url : '';
-
 	const { title } = data;
 
-	// Default theme if no theme is returned from the API.
-	const { linkFgColor = 'white', linkBgColor = '#39E09B' } = theme || {};
+	const { linkFgColor, linkBgColor } = theme || {};
 
 	switch (data.type) {
 		case LinkType.CLASSIC:
-			link = <ClassicLink title={title} url={linkUrl} fgColor={linkFgColor} bgColor={linkBgColor} />;
+			const { url } = data;
+			link = <ClassicLink title={title} url={url} fgColor={linkFgColor} bgColor={linkBgColor} />;
 			break;
+		case LinkType.SHOWS:
+			const { shows } = data;
+			link = <ShowsLink title={title} fgColor={linkFgColor} bgColor={linkBgColor} shows={shows} />;
+			break;
+
 		default:
 			break;
 	}
