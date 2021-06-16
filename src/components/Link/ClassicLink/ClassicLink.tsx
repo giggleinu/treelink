@@ -20,9 +20,9 @@ export interface ClassicLinkProps {
 /**
  * Classic Link component
  */
-const ClassicLink: FunctionComponent<ClassicLinkProps> = ({ title, url, bgColor = '#39E09B', fgColor = 'black' }) => {
+const ClassicLink: FunctionComponent<ClassicLinkProps> = ({ title, url, bgColor, fgColor }) => {
 	return (
-		<div css={styles(bgColor, fgColor)}>
+		<div css={styles(bgColor, fgColor)} data-testid="classic">
 			<div className="link">
 				<a href={url} title={title}>
 					{title}

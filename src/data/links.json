@@ -34,19 +34,19 @@
 		"id": "03music",
 		"title": "Music",
 		"type": "MUSIC",
-		"song": [
+		"platforms": [
 			{
-				"platform": "Spotify",
+				"name": "SPOTIFY",
 				"src": "https://open.spotify.com/embed/track/0juMU08O9byWiRBtKM1j5E",
 				"url:": "https://www.spotify.com"
 			},
 			{
-				"platform": "Apple Music",
+				"name": "APPLE_MUSIC",
 				"src": "https://embed.music.apple.com/us/album/circle-of-life/1445732923",
 				"url:": "https://www.music.apple.com"
 			},
 			{
-				"platform": "SoundCloud",
+				"name": "SOUNDCLOUD",
 				"src": "https://embed.music.apple.com/us/album/circle-of-life/1445732923",
 				"url:": "https://www.music.apple.com"
 			}

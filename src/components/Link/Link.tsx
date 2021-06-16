@@ -1,9 +1,10 @@
 import { ILink, ProfileTheme } from '@types';
 import React, { FunctionComponent, useState } from 'react';
 
-import ClassicLink from '@/components/Link/ClassicLink';
+import ClassicLink from '@components/Link/ClassicLink';
 import { LinkType } from '@enums';
-import ShowsLink from '@/components/Link/ShowsLink';
+import MusicLink from '@components/Link/MusicLink';
+import ShowsLink from '@components/Link/ShowsLink';
 
 export interface LinkProps {
 	/** Link data object */
@@ -31,6 +32,10 @@ const Link: FunctionComponent<LinkProps> = ({ data, theme }) => {
 		case LinkType.SHOWS:
 			const { shows } = data;
 			link = <ShowsLink title={title} fgColor={linkFgColor} bgColor={linkBgColor} shows={shows} />;
+			break;
+		case LinkType.MUSIC:
+			const { platforms } = data;
+			link = <MusicLink title={title} fgColor={linkFgColor} bgColor={linkBgColor} platforms={platforms} />;
 			break;
 
 		default:

@@ -18,6 +18,7 @@ export const App: FunctionComponent = () => {
 			<div className="profile">
 				<img src={photo} />
 				<h1>@{id}</h1>
+				{/* TODO: Create Links list component. */}
 				{links.map(link => {
 					return <Link key={link.id} data={link as ILink.Link} theme={theme} />;
 				})}

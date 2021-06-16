@@ -27,7 +27,7 @@ module.exports = {
 				loader: '@svgr/webpack',
 			},
 			{
-				test: /\.(png|svg)$/i,
+				test: /\.png$/,
 				loader: 'file-loader',
 				options: {
 					outputPath: 'images',
