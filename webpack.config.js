@@ -27,6 +27,14 @@ module.exports = {
 				loader: '@svgr/webpack',
 			},
 			{
+				test: /\.(png|svg)$/i,
+				loader: 'file-loader',
+				options: {
+					outputPath: 'images',
+					name: '[name].[ext]',
+				},
+			},
+			{
 				test: /\.ttf$/i,
 				loader: 'file-loader',
 				options: { outputPath: 'fonts', name: '[name].[ext]' },

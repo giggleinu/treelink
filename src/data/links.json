@@ -6,13 +6,7 @@
 		"url": "https://www.google.com.au"
 	},
 	{
-		"id": "02classic",
-		"title": "Etsy",
-		"type": "CLASSIC",
-		"url": "https://www.etsy.com"
-	},
-	{
-		"id": "03shows",
+		"id": "02shows",
 		"title": "Upcoming Shows",
 		"type": "SHOWS",
 		"shows": [
@@ -37,7 +31,7 @@
 		]
 	},
 	{
-		"id": "04music",
+		"id": "03music",
 		"title": "Music",
 		"type": "MUSIC",
 		"song": [
@@ -57,5 +51,11 @@
 				"url:": "https://www.music.apple.com"
 			}
 		]
+	},
+	{
+		"id": "05classic",
+		"title": "Etsy",
+		"type": "CLASSIC",
+		"url": "https://www.etsy.com"
 	}
 ]

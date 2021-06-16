@@ -38,6 +38,7 @@ const styles = (bgColor: string, fgColor: string): SerializedStyles => css`
 		background-color: #f5f7f8;
 		padding: 0 20px;
 		display: none;
+		border-radius: 4px;
 
 		&.is-expanded {
 			display: block;

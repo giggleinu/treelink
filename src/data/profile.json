@@ -1,6 +1,6 @@
 {
 	"id": "treelink",
-	"photo": "",
+	"photo": "./src/assets/profile-picture.png",
 	"theme": {
 		"linkBgColor": "blueviolet",
 		"linkFgColor": "white"
