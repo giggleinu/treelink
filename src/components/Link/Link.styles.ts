@@ -17,7 +17,6 @@ const styles = (bgColor?: string, fgColor?: string): SerializedStyles => css`
 			height: 100%;
 			display: block;
 			padding: 20px;
-			cursor: pointer;
 			border-radius: 4px;
 		}
 

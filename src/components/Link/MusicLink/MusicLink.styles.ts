@@ -19,6 +19,7 @@ const styles = (): SerializedStyles => css`
 			display: flex;
 			justify-content: space-between;
 			padding: 20px 0;
+			cursor: pointer;
 
 			.cta {
 				transform: rotate(-90deg);
@@ -28,6 +29,8 @@ const styles = (): SerializedStyles => css`
 		.platform-icon {
 			opacity: 0.5;
 			margin-right: 20px;
+			height: 100%;
+			display: block;
 		}
 	}
 `;
