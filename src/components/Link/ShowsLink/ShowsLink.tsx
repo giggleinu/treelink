@@ -1,9 +1,8 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent } from 'react';
 
 import Arrow from '@assets/icons/arrow.svg';
 import ExpandableLink from '@/components/ExpandableLink';
 import { ILink } from '@types';
-import styles from '@components/Link/Link.styles';
 
 export interface ShowsLinkProps {
 	/** Title of link */

@@ -13,9 +13,12 @@ To run storybook:
 -   ~~Add CSS-in-JS library and Storybook~~
 -   ~~Create typings folder~~
 -   ~~Add assets~~
+
 -   Add mock data and typings for User and Links
 -   Add mock data and typings for Songs and Shows
--   Create base Link component
--   Create **Shows** Link variant component
--   Create **Music** Link variant component
+-   ~~ Set up visual regression testing ~~
+-   ~~ Set up interaction testing XX NEED DEBUGGING
+-   ~~ Create base Link component ~~
+-   ~~ Create **Shows** Link variant component ~~
+-   ~~ Create **Music** Link variant component ~~
 -   ...

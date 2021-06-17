@@ -18,6 +18,7 @@ export interface ExpandableLinkProps {
 
 /**
  * Expandable Link component
+ * On click of an Expandable Link, a content panel will appear
  */
 const ExpandableLink: FunctionComponent<ExpandableLinkProps> = ({ title, bgColor, fgColor, expandedContent }) => {
 	const [expanded, setExpanded] = useState<boolean>(false);
