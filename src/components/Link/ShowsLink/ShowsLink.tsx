@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useState } from 'react';
 
 import Arrow from '@assets/icons/arrow.svg';
-import ExpandableLink from '@components/Link/ExpandableLink';
+import ExpandableLink from '@/components/ExpandableLink';
 import { ILink } from '@types';
 import styles from '@components/Link/Link.styles';
 

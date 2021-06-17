@@ -2,7 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 
 import AppleMusic from '@assets/icons/apple-music.svg';
 import Arrow from '@assets/icons/arrow.svg';
-import ExpandableLink from '@components/Link/ExpandableLink';
+import ExpandableLink from '@/components/ExpandableLink';
 import { ILink } from '@types';
 import { MusicPlatform } from '@enums';
 import SoundCloud from '@assets/icons/soundcloud.svg';
