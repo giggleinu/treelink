@@ -17,10 +17,12 @@ If you want to see my testing code, see `App.test.tsx`.
 
 ## **Testing Notes**
 
-**Visual Regression Testing**
+### **Visual Regression Testing**
+
 I opted for [Loki](https://loki.js.org/) as a visual testing tool for my storybook components. Often times we create stories for our components and then forget about updating them as we update our components in the main src. This came in handy when I decided to make a reusable ExpandableLink component AFTER having created the ShowsLink component. Loki would have brought to my attention of any differences that would have emerged when refactoring ShowsLink with ExpandableLink would have created.
 
-**Interaction Testing**
+### **Interaction Testing**
+
 This currently doesn't work because Jest isn't willing to cooperate parse my moduleNameMapper aliases properly :(
 If you want to see my testing code, see `App.test.tsx`.
 
