@@ -1,0 +1,5 @@
+export enum MusicPlatform {
+	SPOTIFY = 'SPOTIFY',
+	APPLE_MUSIC = 'APPLE_MUSIC',
+	SOUNDCLOUD = 'SOUNDCLOUD',
+}
